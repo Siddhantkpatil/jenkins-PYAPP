@@ -8,7 +8,7 @@ WORKDIR /src
 COPY . .
 
 # install the dependencies
-RUN pip install -r requirments.txt
+RUN pip install -r requirment.txt
 
 # expose the port
 EXPOSE 5500
